@@ -45,10 +45,10 @@
  *
  *
  *
- * @version 1.2.0
+ * @version 1.2.1
  * @author Simon Willison
  * @author ninjamar
- * @author kaleidosium
+ * @author Kaleidosium
  * @license MIT
  */
 
