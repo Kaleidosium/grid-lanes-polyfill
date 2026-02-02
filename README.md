@@ -80,7 +80,7 @@ This is required because browsers strip unknown properties and values (including
 
 ## Version
 
-**1.2.1**
+**1.2.2**
 
 ## Authors
 
