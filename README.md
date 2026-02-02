@@ -28,12 +28,26 @@ The following features are **not** supported:
 
 ## Usage
 
-### 1. Load the polyfill
+### 1. Load the polyfill/ponyfill
+
+There are multiple ways to load the grid lanes functionality:
+
+#### As a traditional polyfill (loads globally)
 
 ```html
 <script src="grid-lanes-polyfill.js"></script>
 // OR
 <script src="https://cdn.jsdelivr.net/gh/ninjamar/grid-lanes-polyfill@1.1.0/grid-lanes-polyfill.js"></script>
+```
+
+#### As a ponyfill (importable module)
+
+```js
+// ES Modules
+import { GridLanesPolyfill } from './grid-lanes-polyfill.js';
+
+// Or with a bundler that supports packages
+import { GridLanesPolyfill } from 'grid-lanes-polyfill';
 ```
 
 ### 2. Initialize the polyfill
@@ -66,13 +80,13 @@ This is required because browsers strip unknown properties and values (including
 
 ## Version
 
-**1.2.0**
+**1.2.1**
 
 ## Authors
 
 - Simon Willison
 - ninjamar
-- kaleidosium
+- Kaleidosium
 
 ## License
 
