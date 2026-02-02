@@ -44,10 +44,10 @@ There are multiple ways to load the grid lanes functionality:
 
 ```js
 // ES Modules
-import { GridLanesPolyfill } from './grid-lanes-polyfill.js';
+import { GridLanesPolyfill } from "./grid-lanes-polyfill.js";
 
 // Or with a bundler that supports packages
-import { GridLanesPolyfill } from 'grid-lanes-polyfill';
+import { GridLanesPolyfill } from "grid-lanes-polyfill";
 ```
 
 ### 2. Initialize the polyfill
